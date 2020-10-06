@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color:rgba(0, 0, 0, 0.712);
+font-family: 'Courier New', Courier, monospace;
+font-weight: 600;
+
+}
+
+.container{
+    height: 400px;
+    width: 450px;
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.384);
+    color: rgb(231, 231, 231);
+    padding: 50px;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    
+}
+
+.container tr td{
+    text-align: center;
+}
+
+.elmnt{
+    border: 1px solid transparent;
+    padding: 2px;
+    height: 30px;
+    width: 50px;
+
+}
+
+.elmnt:hover{
+    border: 1px solid rgb(214, 209, 209);
+    background-color: rgba(0, 0, 0, 0.712);
+}
